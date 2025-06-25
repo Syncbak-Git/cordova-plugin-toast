@@ -9,9 +9,6 @@
 	<js-module src='www/inputdevice.js' name='inputdevice'>
 		<clobbers target='toast.inputdevice' />
 	</js-module>
-	<js-module src='www/tvchannel.js' name='tvchannel'>
-		<clobbers target='toast.tvchannel' />
-	</js-module>
 	<js-module src='www/tvwindow.js' name='tvwindow'>
 		<clobbers target='toast.tvwindow' />
 	</js-module>
@@ -44,9 +41,6 @@
 		<js-module src='src/browser/tvwindowProxy.js' name='tvwindowProxy'>
 			<runs />
 		</js-module>
-		<js-module src='src/browser/tvchannelProxy.js' name='tvchannelProxy'>
-			<runs />
-		</js-module>
 		<js-module src='src/browser/sampleEPG.js' name='sampleEPG'>
 		</js-module>
 		<js-module src='src/browser/tvaudiocontrolProxy.js' name='tvaudiocontrolProxy'>
@@ -69,9 +63,6 @@
 			<runs />
 		</js-module>
 		<js-module src='src/sectv-orsay/tvwindowProxy.js' name='tvwindowProxy'>
-			<runs />
-		</js-module>
-		<js-module src='src/sectv-orsay/tvchannelProxy.js' name='tvchannelProxy'>
 			<runs />
 		</js-module>
 		<js-module src='src/sectv-orsay/tvaudiocontrolProxy.js' name='tvaudiocontrolProxy'>
@@ -106,9 +97,6 @@
 			<runs />
 		</js-module>
 		<js-module src='src/sectv-tizen/tvwindowProxy.js' name='tvwindowProxy'>
-			<runs />
-		</js-module>
-		<js-module src='src/sectv-tizen/tvchannelProxy.js' name='tvchannelProxy'>
 			<runs />
 		</js-module>
 		<js-module src='src/sectv-tizen/tvaudiocontrolProxy.js' name='tvaudiocontrolProxy'>
